@@ -1,0 +1,169 @@
+{
+  "common": {
+    "appName": "أوردر كينج",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "update": "تحديث",
+    "create": "إنشاء",
+    "search": "بحث",
+    "filter": "تصفية",
+    "all": "الكل",
+    "yes": "نعم",
+    "no": "لا",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "view": "عرض",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "total": "الإجمالي",
+    "items": "العناصر",
+    "noData": "لا توجد بيانات",
+    "tryAgain": "حاول مرة أخرى"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "orders": "الطلبات",
+    "login": "تسجيل دخول الموظفين",
+    "logout": "تسجيل الخروج",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "language": "اللغة",
+    "arabic": "العربية",
+    "english": "English"
+  },
+  "home": {
+    "title": "أوردر كينج",
+    "subtitle": "اكتشف قائمتنا اللذيذة واطلب بكل سهولة. مكونات طازجة، نكهات رائعة، تصل إلى طاولتك.",
+    "searchPlaceholder": "ابحث في القائمة...",
+    "showingItems": "عرض {{count}} عنصر",
+    "showingItems_plural": "عرض {{count}} عناصر",
+    "inCategory": "في {{category}}",
+    "matching": "مطابق لـ \"{{query}}\""
+  },
+  "products": {
+    "title": "إدارة المنتجات",
+    "subtitle": "إضافة، تعديل، أو حذف عناصر القائمة",
+    "addProduct": "إضافة منتج",
+    "editProduct": "تعديل المنتج",
+    "deleteProduct": "حذف المنتج",
+    "searchPlaceholder": "البحث عن المنتجات...",
+    "productName": "اسم المنتج",
+    "description": "الوصف",
+    "price": "السعر",
+    "category": "الفئة",
+    "imageUrl": "رابط الصورة",
+    "available": "متوفر",
+    "unavailable": "غير متوفر",
+    "availableForOrdering": "متاح للطلب",
+    "noProducts": "لا توجد منتجات",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا المنتج؟ لا يمكن التراجع عن هذا الإجراء.",
+    "managerNote": "(المديرون لا يمكنهم حذف المنتجات)",
+    "categories": {
+      "appetizers": "المقبلات",
+      "mainCourses": "الأطباق الرئيسية",
+      "desserts": "الحلويات",
+      "beverages": "المشروبات"
+    },
+    "messages": {
+      "created": "تم إنشاء المنتج بنجاح",
+      "updated": "تم تحديث المنتج بنجاح",
+      "deleted": "تم حذف المنتج بنجاح",
+      "enabled": "تم تفعيل المنتج",
+      "disabled": "تم تعطيل المنتج"
+    }
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "emptySubtitle": "أضف بعض الأطباق اللذيذة من قائمتنا!",
+    "checkout": "إتمام الطلب",
+    "clearCart": "إفراغ السلة",
+    "itemCount": "{{count}} عنصر",
+    "itemCount_plural": "{{count}} عناصر"
+  },
+  "orders": {
+    "title": "إدارة الطلبات",
+    "subtitle": "عرض وإدارة جميع طلبات العمل��ء",
+    "orderNumber": "رقم الطلب",
+    "customer": "العميل",
+    "customerName": "اسم العميل",
+    "customerEmail": "البريد الإلكتروني",
+    "customerPhone": "رقم الهاتف",
+    "notes": "ملاحظات",
+    "orderDetails": "تفاصيل الطلب",
+    "orderItems": "عناصر الطلب",
+    "customerInfo": "معلومات العميل",
+    "placeOrder": "تأكيد الطلب",
+    "cancelOrder": "إلغاء الطلب",
+    "markComplete": "تحديد كمكتمل",
+    "deleteOrder": "حذف الطلب",
+    "deleteConfirm": "هل أنت متأكد من حذف هذا الطلب؟ لا يمكن التراجع عن هذا الإجراء.",
+    "noOrders": "لا توجد طلبات",
+    "searchPlaceholder": "البحث بالاسم، رقم الطلب، البريد الإلكتروني، أو الهاتف...",
+    "allStatuses": "جميع الحالات",
+    "backToCart": "العودة للسلة",
+    "status": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز",
+      "completed": "مكتمل",
+      "cancelled": "ملغي"
+    },
+    "stats": {
+      "pending": "قيد الانتظار",
+      "preparing": "قيد التحضير",
+      "ready": "جاهز",
+      "completedToday": "مكتمل اليوم"
+    },
+    "messages": {
+      "placed": "تم تقديم الطلب #{{number}} بنجاح!",
+      "statusUpdated": "تم تحديث حالة الطلب إلى {{status}}",
+      "deleted": "تم حذف الطلب بنجاح",
+      "cancelled": "تم إلغاء الطلب"
+    }
+  },
+  "orderSuccess": {
+    "title": "تم الطلب!",
+    "subtitle": "شكراً لطلبك. سيكون طعامك جاهزاً قريباً!",
+    "orderNumber": "رقم الطلب",
+    "totalAmount": "المبلغ الإجمالي",
+    "continueOrdering": "متابعة الطلب"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "staffLogin": "دخول الموظفين",
+    "signInToManage": "سجل الدخول لإدارة الطلبات",
+    "demoCredentials": "بيانات تجريبية",
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+    "accessDenied": "تم رفض الوصول",
+    "noPermission": "ليس لديك صلاحية للوصول إلى هذه الصفحة.",
+    "requiredRole": "الدور المطلوب: {{roles}} | دورك: {{role}}"
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "صيغة البريد الإلكتروني غير صحيحة",
+    "invalidPhone": "صيغة رقم الهاتف غير صحيحة",
+    "minLength": "يجب أن يكون {{min}} أحرف على الأقل",
+    "validPrice": "الرجاء إدخال سعر صحيح"
+  },
+  "footer": {
+    "copyright": "© {{year}} أوردر كينج. جميع الحقوق محفوظة."
+  }
+}
