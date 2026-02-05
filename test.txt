@@ -1,0 +1,179 @@
+# ============================================
+# COMMIT 17: Initialize frontend
+# ============================================
+git add package.json tsconfig.json tsconfig.node.json vite.config.ts index.html
+git commit -m "chore: initialize React frontend with Vite and TypeScript"
+
+# ============================================
+# COMMIT 18: Tailwind CSS setup
+# ============================================
+git add src/index.css
+git commit -m "style: configure Tailwind CSS with custom theme and RTL support"
+
+# ============================================
+# COMMIT 19: Frontend types
+# ============================================
+git add src/types/index.ts
+git commit -m "feat(types): add frontend TypeScript type definitions"
+
+# ============================================
+# COMMIT 20: Utility functions
+# ============================================
+git add src/utils/
+git commit -m "feat(utils): add currency formatting utilities"
+
+# ============================================
+# COMMIT 21: API client setup
+# ============================================
+git add src/api/client.ts
+git commit -m "feat(api): add Axios client with interceptors for auth"
+
+# ============================================
+# COMMIT 22: API services
+# ============================================
+git add src/api/auth.ts src/api/products.ts src/api/orders.ts
+git commit -m "feat(api): add API services for auth, products, and orders"
+
+# ============================================
+# COMMIT 23: Context providers - Theme
+# ============================================
+git add src/context/ThemeContext.tsx
+git commit -m "feat(context): add theme context with dark mode support"
+
+# ============================================
+# COMMIT 24: Context providers - Auth
+# ============================================
+git add src/context/AuthContext.tsx
+git commit -m "feat(context): add authentication context with JWT handling"
+
+# ============================================
+# COMMIT 25: Context providers - Cart
+# ============================================
+git add src/context/CartContext.tsx
+git commit -m "feat(context): add shopping cart context with localStorage persistence"
+
+# ============================================
+# COMMIT 26: i18n setup
+# ============================================
+git add src/i18n/index.ts src/i18n/locales/en.json src/i18n/locales/ar.json
+git commit -m "feat(i18n): add internationalization with English and Arabic support"
+
+# ============================================
+# COMMIT 27: Language context
+# ============================================
+git add src/context/LanguageContext.tsx
+git commit -m "feat(context): add language context with RTL support"
+
+# ============================================
+# COMMIT 28: Custom hooks
+# ============================================
+git add src/hooks/useToast.tsx src/hooks/useProducts.ts
+git commit -m "feat(hooks): add custom hooks for toast notifications and products"
+
+# ============================================
+# COMMIT 29: UI components - Basic
+# ============================================
+git add src/components/ui/Button.tsx src/components/ui/Input.tsx src/components/ui/Spinner.tsx src/components/ui/Modal.tsx
+git commit -m "feat(ui): add reusable UI components (Button, Input, Spinner, Modal)"
+
+# ============================================
+# COMMIT 30: UI components - Language switcher
+# ============================================
+git add src/components/ui/LanguageSwitcher.tsx
+git commit -m "feat(ui): add language switcher component"
+
+# ============================================
+# COMMIT 31: Layout components
+# ============================================
+git add src/components/layout/Header.tsx src/components/layout/Footer.tsx src/components/layout/Layout.tsx
+git commit -m "feat(layout): add header, footer, and main layout components"
+
+# ============================================
+# COMMIT 32: Product components
+# ============================================
+git add src/components/products/ProductCard.tsx src/components/products/ProductList.tsx src/components/products/CategoryFilter.tsx
+git commit -m "feat(products): add product card, list, and category filter components"
+
+# ============================================
+# COMMIT 33: Cart components
+# ============================================
+git add src/components/cart/CartItem.tsx src/components/cart/CartSummary.tsx src/components/cart/CartDrawer.tsx
+git commit -m "feat(cart): add cart drawer with item management"
+
+# ============================================
+# COMMIT 34: Order components
+# ============================================
+git add src/components/orders/OrderForm.tsx
+git commit -m "feat(orders): add order form with validation"
+
+# ============================================
+# COMMIT 35: Auth components
+# ============================================
+git add src/components/auth/ProtectedRoute.tsx
+git commit -m "feat(auth): add protected route component for role-based access"
+
+# ============================================
+# COMMIT 36: Home page
+# ============================================
+git add src/pages/HomePage.tsx
+git commit -m "feat(pages): add home page with product listing and search"
+
+# ============================================
+# COMMIT 37: Login page
+# ============================================
+git add src/pages/LoginPage.tsx
+git commit -m "feat(pages): add staff login page"
+
+# ============================================
+# COMMIT 38: Order success page
+# ============================================
+git add src/pages/OrderSuccessPage.tsx
+git commit -m "feat(pages): add order success confirmation page"
+
+# ============================================
+# COMMIT 39: Admin products page
+# ============================================
+git add src/pages/AdminProductsPage.tsx
+git commit -m "feat(admin): add product management page for admins"
+
+# ============================================
+# COMMIT 40: Admin orders page
+# ============================================
+git add src/pages/AdminOrdersPage.tsx
+git commit -m "feat(admin): add order management page with status updates"
+
+# ============================================
+# COMMIT 41: App entry and routing
+# ============================================
+git add src/App.tsx src/main.tsx
+git commit -m "feat(app): add main app component with routing configuration"
+
+# ============================================
+# COMMIT 42: Static assets
+# ============================================
+git add public/
+git commit -m "chore: add favicon and static assets"
+
+# ============================================
+# COMMIT 43: Environment example files
+# ============================================
+git add .env.example
+git commit -m "docs: add environment variable examples"
+
+# ============================================
+# COMMIT 44: Docker configuration
+# ============================================
+git add Dockerfile nginx.conf backend/Dockerfile docker-compose.yml
+git commit -m "feat(docker): add Docker configuration for frontend and backend"
+
+# ============================================
+# COMMIT 45: Documentation
+# ============================================
+git add README.md README.md
+git commit -m "docs: add project documentation and setup instructions"
+
+# ============================================
+# COMMIT 46: Final cleanup and polish
+# ============================================
+git add .
+git commit -m "chore: final cleanup and code organization"
